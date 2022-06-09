@@ -1,0 +1,105 @@
+main{    
+    position: relative;
+}
+
+a > img{
+    margin: 3rem 0;
+}
+
+main > img{
+    width: 35.5rem;
+    position: absolute;
+    right: 0;
+}
+
+label{
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--primary-title-color);
+}
+
+a{
+    width: max-content;
+
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--secondary-title-color);
+}
+
+span{
+    color: var(--redhero);
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-evenly;
+
+    height: 14rem;
+}
+
+#container input{
+    width: 19rem;
+    height: 3rem;
+
+    border: 0.05rem solid var(--input-line-color);
+    border-radius: 0.5rem;
+}
+
+#container input::placeholder{
+    padding-left: 1rem;
+
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--secondary-text-color);
+}
+
+#container button{
+    width: 19rem;
+    height: 3rem;
+
+    font-weight: 700;
+    line-height: 1.3rem;
+
+    background-color: var(--redhero);
+    color: var(--background-color);
+
+    border:none;
+    border-radius: 0.5rem;
+}
+
+div > span {
+    margin-right: 0.5rem;
+}
+
+@media (max-width: 600px){
+    html{
+        font-size: 90%;
+    }
+
+    body{
+        grid-template-rows: 5rem 1fr;
+    }
+
+    a > img{
+        width: 12rem;
+        margin-top: 0;
+        margin-bottom: 1.5rem;
+    }
+
+    main{
+        align-items: center;
+    }
+
+    main > img{
+
+        width: 18rem;
+        position: relative;
+    }
+
+    #container{
+        align-items: center;
+    }
+}

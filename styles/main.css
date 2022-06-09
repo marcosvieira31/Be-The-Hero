@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --redhero: #E02041;
+    --primary-title-color: #13131A;
+    --secondary-title-color: #41414D;
+    --text-color: #737380;
+    --secondary-text-color: #A8A8B3;
+    --input-color: #FFFFFF;
+    --input-line-color: #DCDCE6;
+    --background-color: #F0F0F5;
+}
+
+html{ 
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "main";
+    grid-template-rows: 8rem 1fr;
+
+    width: 100vw;
+
+    background: var(--background-color);
+    
+}
+header{
+    grid-area: header;
+}
+
+main{
+    grid-area: main;
+
+    max-width: 1080px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
