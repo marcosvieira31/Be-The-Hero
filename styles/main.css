@@ -27,6 +27,7 @@ body{
     grid-template-rows: 8rem 1fr;
 
     width: 100vw;
+    height: 100vh;
 
     background: var(--background-color);
     
@@ -47,4 +48,46 @@ main{
     flex-direction: column;
 }
 
+input{
+    border: 0.05rem solid var(--input-line-color);
+    border-radius: 0.4rem;
 
+    font-size: 1rem;
+
+    padding-left: 1rem;
+}
+
+input::placeholder{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--secondary-text-color);
+}
+
+button{
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.3rem;
+
+    background-color: var(--redhero);
+    color: var(--background-color);
+
+    border:none;
+    border-radius: 0.5rem;
+}
+
+div > span {
+    margin-right: 0.5rem;
+}
+
+@media (max-width: 600px){
+
+    html{
+        font-size: 90%;
+    }
+
+    body{
+        grid-template-rows: 5rem 1fr;
+        height: auto;
+    }
+
+}

@@ -43,45 +43,15 @@ span{
 #container input{
     width: 19rem;
     height: 3rem;
-
-    border: 0.05rem solid var(--input-line-color);
-    border-radius: 0.5rem;
-}
-
-#container input::placeholder{
-    padding-left: 1rem;
-
-    font-size: 1rem;
-    font-weight: 400;
-    color: var(--secondary-text-color);
 }
 
 #container button{
     width: 19rem;
     height: 3rem;
-
-    font-weight: 700;
-    line-height: 1.3rem;
-
-    background-color: var(--redhero);
-    color: var(--background-color);
-
-    border:none;
-    border-radius: 0.5rem;
-}
-
-div > span {
-    margin-right: 0.5rem;
 }
 
 @media (max-width: 600px){
-    html{
-        font-size: 90%;
-    }
 
-    body{
-        grid-template-rows: 5rem 1fr;
-    }
 
     a > img{
         width: 12rem;
