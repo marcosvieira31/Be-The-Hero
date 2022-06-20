@@ -48,10 +48,45 @@ span{
 #container button{
     width: 19rem;
     height: 3rem;
+
+    transition: 0.2s;
 }
 
-@media (max-width: 600px){
+#container button:hover{
+    filter: brightness(0.9);
+}
 
+@media (max-width:1180px){
+    
+    main{
+        max-width: 900px;
+    }
+    
+    main > img {
+        width: 30rem;
+    }
+}
+
+@media(max-width:970px){
+    
+    html{
+        font-size: 95%;
+    }
+
+    main{
+        max-width: 700px;
+    }
+    
+    main > img {
+        width: 25rem;
+    }
+}
+
+@media (max-width: 780px){
+    
+    html{
+        font-size: 100%;
+    }
 
     a > img{
         width: 12rem;

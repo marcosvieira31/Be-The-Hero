@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be The Hero</title>
+
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/new-case.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">    
+
+    <script src="https://kit.fontawesome.com/4ffec31fd0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <main>
+        <div id="main-container">
+        <a href="#" title="logo"><img src="assets/logo.svg" alt="Be the hero"></a>
+
+        <div id="container">
+            <h1>Cadastrar novo caso</h1>
+            <p>Descreva o caso detalhadamente para encontrar um herói para resolver isso.</p>
+        </div>
+
+        <form action="">
+            <fieldset>
+            <label for="title-case" class="case-label">
+                <span>Título do caso</span> 
+                <input type="text" name="" id="title-case" class="input">
+            </label>
+            <label for="description-case" class="case-label">
+                <span>Descrição</span> 
+                <textarea name="" id="description-case" cols="30" rows="10" class="input"></textarea>
+            </label>
+            <label for="cash-case" class="case-label">
+                <span>Valor em reais</span>
+                <input type="number" name="" id="cash-case" class="input">
+            </label>
+            <button type="button" id="cancel">Cancelar</button> 
+            <button type="submit" id="submit">Cadastrar</button>
+            </fieldset>  
+        </form>
+        
+        <div id="back-bt">
+            <span>
+                <i class="fa-solid fa-arrow-left"></i>
+            </span>
+            <a href="panel.html">Voltar para home</a>
+        </div>
+        </div>
+    
+    </main>
+
+</body>
+</html>
+<script src="scripts/new-case.js"></script>

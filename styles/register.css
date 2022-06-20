@@ -106,7 +106,7 @@ fieldset > button{
     margin-top: 1rem;
 }
 
-@media (max-width: 600px){
+@media (max-width: 750px){
     
     main{
         align-items: center;
